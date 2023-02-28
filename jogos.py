@@ -19,4 +19,3 @@ def escolhe_jogo():
 
 if(__name__ == "__main__"):
     escolhe_jogo()
-    gatbriel teste
