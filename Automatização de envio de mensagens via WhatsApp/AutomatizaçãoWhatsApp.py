@@ -162,8 +162,7 @@ def estrairTelefonePDF():
 
 # Envia as mensagens para os contatos
 def enviarMensagem():
-    contatos = ['+5549999592533', '+5549999592533']
-    # contatos = estrairTelefonePDF()
+    contatos = estrairTelefonePDF()
 
     # Inicia a thread de envio de mensagens
     thread_envio = threading.Thread(target=enviarMensagensThread, args=(contatos,))
